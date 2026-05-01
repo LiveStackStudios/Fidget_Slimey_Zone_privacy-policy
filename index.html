@@ -5,57 +5,313 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Privacy Policy — Fidget Slimey Zone</title>
   <style>
-    body { font-family: -apple-system, sans-serif; max-width: 800px; 
-           margin: 40px auto; padding: 0 20px; color: #333; line-height: 1.7; }
-    h1 { color: #111; }
-    h2 { color: #222; margin-top: 32px; }
-    a { color: #007AFF; }
-    .meta { color: #666; font-size: 14px; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { 
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; 
+      max-width: 860px; 
+      margin: 0 auto; 
+      padding: 40px 24px 80px; 
+      color: #1a1a1a; 
+      line-height: 1.75; 
+      background: #fff;
+    }
+    h1 { 
+      font-size: 28px; 
+      color: #111; 
+      margin-bottom: 6px; 
+    }
+    h2 { 
+      font-size: 18px; 
+      color: #111; 
+      margin-top: 40px; 
+      margin-bottom: 12px; 
+      padding-bottom: 6px;
+      border-bottom: 1px solid #eee;
+    }
+    h3 {
+      font-size: 15px;
+      color: #333;
+      margin-top: 24px;
+      margin-bottom: 8px;
+    }
+    p { margin-bottom: 14px; }
+    ul { 
+      margin: 0 0 14px 20px; 
+    }
+    li { margin-bottom: 6px; }
+    a { color: #007AFF; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .meta { 
+      color: #666; 
+      font-size: 14px; 
+      margin-bottom: 32px;
+      line-height: 1.6;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0 24px;
+      font-size: 14px;
+    }
+    th {
+      background: #f5f5f5;
+      text-align: left;
+      padding: 10px 12px;
+      border: 1px solid #ddd;
+      font-weight: 600;
+    }
+    td {
+      padding: 10px 12px;
+      border: 1px solid #ddd;
+      vertical-align: top;
+    }
+    tr:nth-child(even) td { background: #fafafa; }
+    .badge {
+      display: inline-block;
+      background: #007AFF;
+      color: white;
+      font-size: 12px;
+      padding: 2px 8px;
+      border-radius: 999px;
+      margin-left: 8px;
+      vertical-align: middle;
+    }
+    footer {
+      margin-top: 60px;
+      padding-top: 24px;
+      border-top: 1px solid #eee;
+      font-size: 13px;
+      color: #999;
+    }
   </style>
 </head>
 <body>
-  <h1>Privacy Policy — Fidget Slimey Zone</h1>
-  <p class="meta">Last updated: April 29, 2026 · Effective date: April 29, 2026</p>
 
-  <p>Fidget Slimey Zone ("the App") is operated by Livestack Studios ("we," "us," or "our"). This Privacy Policy explains how we collect, use, and protect information when you use our app.</p>
+  <h1>Privacy Policy <span class="badge">v1.0</span></h1>
+  <div class="meta">
+    <strong>Fidget Slimey Zone</strong> by LiveStack Studios<br>
+    Effective date: April 29, 2026 &nbsp;·&nbsp; Last updated: April 29, 2026<br>
+    Bundle ID: com.livestackstudios.fidgetslimeyzone<br>
+    Contact: <a href="mailto:ja@livestackstudios.com">ja@livestackstudios.com</a>
+  </div>
 
-  <h2>1. Information We Collect</h2>
-  <p><strong>Account Information:</strong> If you choose to sign in with Apple or Google, we receive a unique identifier and, depending on your settings, your name and email address. This is used solely to manage your account, sync your progress, and process purchases. You may use the app without signing in — anonymous access is supported.</p>
-  <p><strong>Usage Data:</strong> We collect information about how you interact with the app, including features used, session length, and in-app activity. This helps us improve the experience.</p>
-  <p><strong>Purchase Information:</strong> If you make an in-app purchase, transaction data is processed by Apple App Store and RevenueCat. We do not store your payment card information.</p>
-  <p><strong>Advertising Data:</strong> We use Google AdMob to show ads. AdMob may collect your device advertising identifier (IDFA on iOS) and usage data to show relevant ads. On iOS, we will ask for your permission before accessing your IDFA via the App Tracking Transparency prompt. You may decline and ads will still be shown, but they will be less personalized.</p>
+  <h2>1. About This Policy</h2>
+  <p>This Privacy Policy explains what information Fidget Slimey Zone ("the App", "we", "us", "our") collects, why we collect it, how we use it, and what rights you have over it. By using the App you agree to the practices described here.</p>
+  <p>LiveStack Studios operates the App and is the data controller for any personal data processed under this Policy.</p>
 
-  <h2>2. How We Use Your Information</h2>
-  <p>We use the information we collect to: operate and improve the App; process and restore purchases; show advertisements (free tier users); track your progress, coins, XP, and unlocks; and respond to support requests.</p>
+  <h2>2. Information We Collect</h2>
 
-  <h2>3. Third-Party Services</h2>
-  <p>The App uses the following third-party services, each with their own privacy policies:</p>
+  <h3>2.1 Information Stored Only on Your Device</h3>
+  <p>The following data is stored locally in your device's storage and is never transmitted to any server. It is permanently erased when you delete the app or use the in-app reset function.</p>
   <ul>
-    <li><a href="https://policies.google.com/privacy">Google AdMob</a> — advertising</li>
-    <li><a href="https://firebase.google.com/support/privacy">Google Firebase</a> — analytics and anonymous authentication</li>
-    <li><a href="https://www.revenuecat.com/privacy">RevenueCat</a> — subscription and purchase management</li>
-    <li><a href="https://www.apple.com/legal/privacy">Sign in with Apple</a> — optional authentication</li>
-    <li><a href="https://policies.google.com/privacy">Sign in with Google</a> — optional authentication</li>
+    <li>In-game progress: coin balance, gem balance, XP, level, daily streak, total pops, total clicks</li>
+    <li>Slime collection: saved slime recipes including color, texture, decoration choices, container type, and custom name</li>
+    <li>Unlocks: which toys, pop-its, colors, and decorations you have unlocked</li>
+    <li>Settings preferences: sound, haptics, theme color</li>
+    <li>Subscription tier cached locally for offline use</li>
+    <li>Daily session counters: coins earned today, rewarded ads watched today</li>
   </ul>
 
-  <h2>4. Children's Privacy</h2>
-  <p>The App is designed for all ages including families. We do not knowingly collect personal information from children under 13 beyond what is necessary to operate the app. We do not share children's data with third parties for advertising purposes. If you believe a child under 13 has provided personal information without parental consent, please contact us and we will delete it promptly.</p>
-  <p>Because the App is rated for all ages and uses advertising, AdMob is configured to serve family-safe ads only. We comply with the Children's Online Privacy Protection Act (COPPA) and Google's Families Policy.</p>
+  <h3>2.2 Anonymous User Identifier</h3>
+  <p>On first launch, the App generates an anonymous user ID. This ID is used to create an anonymous credential with Firebase Authentication and is sent to RevenueCat as an app user ID for entitlement and subscription management. It does not identify you personally in any way.</p>
+
+  <h3>2.3 Account Data (Only If You Choose to Sign In)</h3>
+  <p>Sign-in is entirely optional. You can use all core features anonymously. If you choose to sign in:</p>
+  <p><strong>Apple Sign In</strong> — we receive an Apple relay token and, if you grant permission, your name and email address.</p>
+  <p><strong>Google Sign In</strong> — we receive a Google ID token, your email address, display name, and profile photo URL.</p>
+  <p>This data is stored in Firebase Firestore under your user ID to enable cross-device progress sync. Signing out removes your local credential but does not automatically delete your Firestore record. To request deletion of your server-side data, contact us at <a href="mailto:ja@livestackstudios.com">ja@livestackstudios.com</a>.</p>
+
+  <h3>2.4 Crash and Diagnostic Data</h3>
+  <p><strong>Firebase Crashlytics</strong> — automatically collected when the app crashes. Data includes stack trace, OS version, device model, app version, and an anonymous Firebase installation ID. No personally identifiable information is included.</p>
+  <p><strong>Firebase Analytics</strong> — collects anonymous event data such as level_up, slime_saved, and purchase_complete. This data is tied to a Firebase installation ID, not to your personal identity.</p>
+
+  <h3>2.5 Advertising Data</h3>
+  <p>The App displays ads via Google AdMob. Ads appear on the Home, Toys, and Slime Play screens (banner), every fifth toy navigation (interstitial), and as an optional rewarded ad capped at 3 per day in exchange for in-game coins.</p>
+  <p>On iOS, we request App Tracking Transparency (ATT) permission before any ad is loaded. If you grant permission, AdMob may receive your Apple Identifier for Advertisers (IDFA) to show personalised ads. If you deny permission, only non-personalised contextual ads are shown and your IDFA is never accessed.</p>
+  <p>For users in the European Union, a Google UMP consent dialog is displayed on first launch. Your consent choice is stored and respected on every subsequent launch.</p>
+  <p>All ad inventory is configured to family-safe content with a maximum content rating of Parental Guidance.</p>
+
+  <h3>2.6 Purchase Data</h3>
+  <p>All payment transactions are processed by Apple via StoreKit. We never receive or store your credit card or payment information. RevenueCat receives your anonymous app user ID, transaction receipts relayed from Apple, product IDs purchased, and your current entitlement state to manage your subscription and support purchase restoration across devices.</p>
+
+  <h3>2.7 What We Do Not Collect</h3>
+  <ul>
+    <li>Precise or approximate location</li>
+    <li>Camera, microphone, or photo library data</li>
+    <li>Contacts or calendar data</li>
+    <li>Health or biometric data</li>
+    <li>Browsing history outside the App</li>
+    <li>Any data from children under 13 beyond what is necessary to operate the App</li>
+  </ul>
+
+  <h2>3. How We Use Your Information</h2>
+  <p>We use the information described above to:</p>
+  <ul>
+    <li>Operate and deliver the App's features and gameplay</li>
+    <li>Restore your purchases and subscription entitlements across devices</li>
+    <li>Show advertisements to free-tier users</li>
+    <li>Detect and fix crashes and performance issues</li>
+    <li>Understand aggregate usage patterns to improve the App</li>
+    <li>Enforce daily reward caps and prevent abuse of the in-game economy</li>
+    <li>Respond to support requests you send us</li>
+  </ul>
+
+  <h2>4. Third-Party Services</h2>
+  <table>
+    <tr>
+      <th>Service</th>
+      <th>Purpose</th>
+      <th>Data Shared</th>
+    </tr>
+    <tr>
+      <td>Firebase Authentication</td>
+      <td>Anonymous + optional sign-in</td>
+      <td>Anonymous ID; optionally email/name</td>
+    </tr>
+    <tr>
+      <td>Firebase Firestore</td>
+      <td>Cross-device sync (signed-in users)</td>
+      <td>User ID, slime data, progress</td>
+    </tr>
+    <tr>
+      <td>Firebase Analytics</td>
+      <td>Aggregate usage events</td>
+      <td>Event names, anonymous install ID</td>
+    </tr>
+    <tr>
+      <td>Firebase Crashlytics</td>
+      <td>Crash reporting</td>
+      <td>Stack trace, device model, OS version</td>
+    </tr>
+    <tr>
+      <td>Google Sign-In</td>
+      <td>Optional authentication</td>
+      <td>ID token, email, name</td>
+    </tr>
+    <tr>
+      <td>Apple Sign In</td>
+      <td>Optional authentication</td>
+      <td>Relay token, optional email/name</td>
+    </tr>
+    <tr>
+      <td>Google AdMob</td>
+      <td>Advertising</td>
+      <td>IDFA (with ATT consent), device info</td>
+    </tr>
+    <tr>
+      <td>Google UMP</td>
+      <td>GDPR consent for EU users</td>
+      <td>Consent state</td>
+    </tr>
+    <tr>
+      <td>RevenueCat</td>
+      <td>Subscription management</td>
+      <td>App user ID, receipts, entitlements</td>
+    </tr>
+    <tr>
+      <td>Apple StoreKit</td>
+      <td>Payment processing</td>
+      <td>Apple-handled; we never see card data</td>
+    </tr>
+    <tr>
+      <td>Unity Engine</td>
+      <td>3D slime rendering (on-device only)</td>
+      <td>None — no network calls made</td>
+    </tr>
+  </table>
 
   <h2>5. Data Retention</h2>
-  <p>We retain your data for as long as your account is active or as needed to provide the service. You may request deletion of your data at any time by contacting us. Anonymous accounts with no purchases are deleted after 12 months of inactivity.</p>
+  <table>
+    <tr>
+      <th>Data Type</th>
+      <th>Retention Period</th>
+    </tr>
+    <tr>
+      <td>Local device data</td>
+      <td>Until app deletion or manual reset</td>
+    </tr>
+    <tr>
+      <td>Firebase anonymous credential</td>
+      <td>Until sign-out or app deletion</td>
+    </tr>
+    <tr>
+      <td>Firestore account record (signed-in users)</td>
+      <td>Until deletion request or 24 months of inactivity</td>
+    </tr>
+    <tr>
+      <td>Crashlytics data</td>
+      <td>90 days (Firebase default)</td>
+    </tr>
+    <tr>
+      <td>Analytics data</td>
+      <td>14 months (Firebase default)</td>
+    </tr>
+    <tr>
+      <td>RevenueCat subscription records</td>
+      <td>As required to support restore purchases</td>
+    </tr>
+  </table>
 
-  <h2>6. Your Rights</h2>
-  <p>Depending on your location, you may have the right to access, correct, or delete your personal data. EU and California residents have additional rights under GDPR and CCPA respectively. To exercise any of these rights, contact us at the email below. For EU users, a consent form will be presented on first launch in accordance with GDPR requirements.</p>
+  <h2>6. Children's Privacy</h2>
+  <p>The App is designed for general audiences including families. We do not knowingly collect personal information from children under 13 beyond what is necessary to operate the App, and we do not share any such information with third parties for advertising purposes.</p>
+  <p>All ad inventory is restricted to family-safe content. If you are a parent or guardian and believe your child under 13 has provided personal information, please contact us at <a href="mailto:ja@livestackstudios.com">ja@livestackstudios.com</a> and we will promptly delete it.</p>
 
-  <h2>7. Security</h2>
-  <p>We use industry-standard measures to protect your information. However, no method of transmission over the internet is 100% secure. We encourage you to use strong passwords and keep your device secure.</p>
+  <h2>7. Your Rights</h2>
 
-  <h2>8. Changes to This Policy</h2>
-  <p>We may update this Privacy Policy from time to time. We will notify you of significant changes by updating the date at the top of this page. Continued use of the App after changes constitutes acceptance of the updated policy.</p>
+  <h3>All Users</h3>
+  <ul>
+    <li>Delete local data by resetting the app or deleting it from your device</li>
+    <li>Revoke ad tracking permission via iOS Settings → Privacy &amp; Security → Tracking → Fidget Slimey Zone</li>
+    <li>Cancel your subscription via iOS Settings → Apple ID → Subscriptions or via the in-app Customer Center</li>
+    <li>Restore purchases via Settings → Restore Purchases within the App</li>
+  </ul>
 
-  <h2>9. Contact Us</h2>
-  <p>Livestack Studios<br>
-  Email: <a href="mailto:ja@livestackstudios.com">ja@livestackstudios.com</a></p>
+  <h3>EU Users (GDPR — Articles 15–20)</h3>
+  <ul>
+    <li>Right to access the personal data we hold about you</li>
+    <li>Right to rectify inaccurate data</li>
+    <li>Right to erasure ("right to be forgotten")</li>
+    <li>Right to restrict or object to processing</li>
+    <li>Right to data portability</li>
+    <li>Right to withdraw consent at any time without affecting the lawfulness of prior processing</li>
+  </ul>
+
+  <h3>California Users (CCPA)</h3>
+  <ul>
+    <li>Right to know what personal information is collected and how it is used</li>
+    <li>Right to delete personal information</li>
+    <li>Right to opt out of the sale of personal information — we do not sell personal information</li>
+    <li>Right to non-discrimination for exercising your rights</li>
+  </ul>
+
+  <p>To exercise any of these rights, email <a href="mailto:ja@livestackstudios.com">ja@livestackstudios.com</a>. We will respond within 30 days.</p>
+
+  <h2>8. Security</h2>
+  <p>We use industry-standard security measures including Firebase's server-side encryption and Apple's secure credential storage. No method of electronic transmission or storage is 100% secure. We encourage you to keep your device updated and protected.</p>
+
+  <h2>9. Third-Party Privacy Policies</h2>
+  <ul>
+    <li><a href="https://policies.google.com/privacy">Google / Firebase / AdMob</a></li>
+    <li><a href="https://firebase.google.com/support/privacy">Firebase (supplemental)</a></li>
+    <li><a href="https://www.revenuecat.com/privacy/">RevenueCat</a></li>
+    <li><a href="https://www.apple.com/legal/privacy/">Apple</a></li>
+    <li><a href="https://unity.com/legal/privacy-policy">Unity</a></li>
+  </ul>
+
+  <h2>10. Changes to This Policy</h2>
+  <p>We may update this Policy from time to time. When we do, we will update the "Last updated" date at the top. Continued use of the App after changes are posted constitutes acceptance of the revised Policy. For material changes we will make reasonable efforts to notify you within the App.</p>
+
+  <h2>11. Contact Us</h2>
+  <p>
+    <strong>LiveStack Studios</strong><br>
+    Email: <a href="mailto:ja@livestackstudios.com">ja@livestackstudios.com</a><br>
+    Privacy Policy: <a href="https://livestackstudios.github.io/Fidget_Slimey_Zone_privacy-policy/">https://livestackstudios.github.io/Fidget_Slimey_Zone_privacy-policy/</a>
+  </p>
+
+  <footer>
+    &copy; 2026 LiveStack Studios · Fidget Slimey Zone · 
+    <a href="terms.html">Terms of Service</a>
+  </footer>
+
 </body>
 </html>
